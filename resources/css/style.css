@@ -2,23 +2,66 @@
 
 /* Universal Style */
 body{
-  padding-left: 24px;
+  font-family: 'Roboto', 'Arial', sans-serif;;
 }
 
 div{
   display: block;
 }
 
+a{
+  text-decoration: none;
+}
+
 /*Header style*/
 header{
+  padding-left: 24px;
+  margin: auto 0;
+  padding-right: 24px;
   height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .header-logo{
   display: flex;
   align-items: center;
 }
-.navigation{
-  display: inline-flex;
-
+#colmar{
+  color: black;
 }
+#academy{
+  color: gray;
+}
+.navigation ul{
+  display: inline-flex;
+  list-style-type: none;
+}
+.navigation li{
+  padding-left: 16px;
+}
+.navigation a{
+  color: gray;
+}
+
 /*Banner style*/
+.banner{
+  background-color: lightgray;
+  display: inline-flex;
+  align-items: center;
+}
+.banner img{
+  width: 60%;
+  height: auto;
+  padding: 32px 40px 32px 24px;
+}
+.jambotron{
+  float: left;
+}
+#button-start{
+  padding: 8px 50px;
+  background-color: gray;
+  color:white;
+  display: table;
+  margin: 0 auto;
+}
