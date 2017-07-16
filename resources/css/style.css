@@ -1,0 +1,24 @@
+/*Fonts being used*/
+
+/* Universal Style */
+body{
+  padding-left: 24px;
+}
+
+div{
+  display: block;
+}
+
+/*Header style*/
+header{
+  height: 64px;
+}
+.header-logo{
+  display: flex;
+  align-items: center;
+}
+.navigation{
+  display: inline-flex;
+
+}
+/*Banner style*/
