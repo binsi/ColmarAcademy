@@ -29,9 +29,11 @@ header{
 }
 #colmar{
   color: black;
+  font-weight: bold;
 }
 #academy{
   color: gray;
+  font-weight: bold;
 }
 .navigation ul{
   display: inline-flex;
@@ -64,4 +66,30 @@ header{
   color:white;
   display: table;
   margin: 0 auto;
+}
+
+/*Announcements style*/
+.announcements{
+  display: flex;
+}
+.announcements-left{
+  padding: 32px 24px;
+  width: 50%;
+}
+.announcements-left img{
+  width: 100%;
+}
+.announcements-right{
+  padding: 32px 24px 32px 0;
+  width: 50%;
+  border-left: 1px solid grey;
+}
+.information{
+  padding-left: 16px;
+  display: flex;
+  align-items: center;
+}
+.information img{
+  width: 35%;
+  height: auto;
 }
