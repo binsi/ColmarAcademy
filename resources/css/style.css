@@ -2,7 +2,7 @@
 
 /* Universal Style */
 body{
-  font-family: 'Roboto', 'Arial', sans-serif;;
+  font-family: 'Roboto', 'Arial', sans-serif;
 }
 
 div{
@@ -106,8 +106,6 @@ header{
 
 /*Start Learning style*/
 .start-learning{
-  /*padding-left: 24px;
-  padding-right: 24px;*/
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -141,3 +139,82 @@ header{
   padding-top: 8px;
 }
 /*Thesis exhibit style*/
+.thesis{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-bottom: 1px solid lightgrey;
+}
+.thesis h2{
+  text-align: center;
+  padding-top:32px;
+  padding-bottom:32px;
+}
+.thesis-content{
+  padding-left: 24px;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 32px;
+}
+.thesis-left{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.thesis-left video{
+  width: 100%;
+  padding-right: 16px;
+  padding-bottom: 24px;
+}
+.thesis-right{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.thesis-right-content{
+  height: 168px;
+  width: 432px;
+  display: flex;
+  align-items: center;
+}
+#fisma{
+  background-color: lightgrey;
+}
+.thesis-right-content img{
+  margin: 16px;
+  width: 130px;
+  height: 130px;
+}
+.trc-text{
+  width: 40%;
+}
+/*Footer style*/
+footer{
+  padding-left: 24px;
+  margin: auto 0;
+  padding-right: 24px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: gray;
+}
+.footer-links ul{
+  display: inline-flex;
+  list-style-type: none;
+}
+.footer-links li{
+  padding-left: 16px;
+}
+.footer-links a{
+  color: gray;
+}
+
+@media only screen and (max-width: 480px) {
+
+}
+@media only screen and (min-width: 481px) {
+
+}
