@@ -13,15 +13,22 @@ a{
   text-decoration: none;
 }
 
+h1{
+  font-size: 2rem;
+}
+
 /*Header style*/
 header{
   padding-left: 24px;
   margin: auto 0;
   padding-right: 24px;
   height: 64px;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background-color: white;
+  position: fixed;
 }
 .header-logo{
   display: flex;
@@ -38,6 +45,7 @@ header{
 .navigation ul{
   display: inline-flex;
   list-style-type: none;
+  padding-right: 50px;
 }
 .navigation li{
   padding-left: 16px;
@@ -51,6 +59,7 @@ header{
   background-color: lightgray;
   display: inline-flex;
   align-items: center;
+  margin-top: 64px;
 }
 .banner img{
   width: 60%;
@@ -62,6 +71,8 @@ header{
   flex-direction: column;
   max-width: 400px;
   align-content: space-between;
+  padding-right: 50px;
+  padding-bottom: 24px;
 }
 #button-start{
   padding: 10px 50px;
@@ -125,12 +136,12 @@ header{
 }
 .course{
   background-color: white;
-  max-width: 392px;
+  max-width: 391.5px;
   margin: 0 16px 16px 16px;
 }
 .course img{
-  height: 200px;
-  width: auto;
+  display: block;
+  width: 100%;
 }
 .course-text{
   padding: 16px 16px 24px 16px;
@@ -174,10 +185,11 @@ header{
   flex-direction: column;
 }
 .thesis-right-content{
-  height: 168px;
-  width: 432px;
+  width: 100%;
+  height: auto;
   display: flex;
   align-items: center;
+
 }
 #fisma{
   background-color: lightgrey;
@@ -213,8 +225,85 @@ footer{
 }
 
 @media only screen and (max-width: 480px) {
+body{
+  font-size: 12px;
+}
+/*Header style in mobile*/
+header span, header li{
+  display: none;
+}
+.header-logo{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-right: -24px;
+}
+/*Banner style in mobile*/
+.banner{
+  flex-direction: column;
+  width: 100%;
+}
+.banner img{
+  width: 100%;
+  padding: 0;
+}
+.jambotron{
+  padding: 0px 16px 24px 16px;
+}
+.jambotron h3{
+  margin: 16px auto 24px auto;
+}
+/*Announcement style in mobile*/
+.announcements-left{
+  display: none;
+}
+#announcement-desktop{
+  display: none;
+}
+.announcements{
+  display: block;
+}
+.announcements-right{
+  width: 100%;
+  padding: 0;
+  border: 1px solid red;
+}
+.information{
+  flex-direction: column;
+  justify-content: center;
+  padding: 16px;
+  width: 100%;
+}
+.information img{
+  width: 90%;
+}
+/*
+.information{
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  max-width: 432px;
+}
+.information img{
+  width: 35%;
+  height: auto;
+}
+.info-text{
+  padding-left: 25px;
+  margin-top: -25px;
+}
+#guest-lecture{
+  background-color: lightgrey;
+}*/
 
 }
-@media only screen and (min-width: 481px) {
 
+
+@media only screen and (min-width: 481px) {
+#mobile-menu{
+  display: none;
+}
+#announcement-mobile{
+  display: none;
+}
 }
