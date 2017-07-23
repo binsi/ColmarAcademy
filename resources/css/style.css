@@ -322,7 +322,38 @@ header span, header li{
   display: none;
 }
 /*Thesis exhibit style in mobile*/
-
+.thesis h2{
+  margin: 0;
+}
+.thesis-content{
+  padding: 0;
+}
+.thesis-right{
+  display: none;
+}
+.thesis-left{
+  width: 100%;
+}
+.thesis-left video{
+  width: 100%;
+  padding: 0;
+}
+.video-text{
+  display: none;
+}
+/*Footer style in mobile*/
+.footer-links{
+  display: none;
+}
+footer{
+  padding: 24px 0 0 0;
+  margin: 0;
+  height: auto;
+}
+.footer-text{
+  padding: 16px;
+  margin: 0;
+}
 }
 
 
