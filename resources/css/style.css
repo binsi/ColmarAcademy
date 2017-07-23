@@ -261,40 +261,67 @@ header span, header li{
   display: none;
 }
 .announcements{
-  display: block;
+  display: inline;
 }
 .announcements-right{
+  border: none;
   width: 100%;
   padding: 0;
-  border: 1px solid red;
 }
 .information{
   flex-direction: column;
-  justify-content: center;
+  align-items: flex-start;
   padding: 16px;
+}
+.information img{
   width: 100%;
 }
-.information img{
-  width: 90%;
-}
-/*
-.information{
-  padding: 16px;
-  display: flex;
-  align-items: center;
-  max-width: 432px;
-}
-.information img{
-  width: 35%;
-  height: auto;
-}
 .info-text{
-  padding-left: 25px;
-  margin-top: -25px;
+  margin:0;
+  padding: 0px 16px;
 }
 #guest-lecture{
-  background-color: lightgrey;
-}*/
+  background-color: white;
+}
+/*Start learning style in mobile*/
+.start-learning{
+  background-color: white;
+  padding-bottom: 32px;
+  border: 1px solid lightgrey;
+}
+.start-learning h2{
+  padding: 16px;
+  margin: 0;
+}
+.grid-of-courses{
+  width: 100%;
+  margin: 0;
+}
+.course{
+  width: 100%;
+  margin: 16px 16px 0px 16px;
+}
+.course img{
+  display: none
+}
+.course-text{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  width: 100%;
+}
+.course-text h4{
+  padding: 16px;
+  margin: 0;
+  width: 90%;
+  background-color: lightgray;
+  text-align: left;
+}
+.course-text p{
+  display: none;
+}
+/*Thesis exhibit style in mobile*/
 
 }
 
